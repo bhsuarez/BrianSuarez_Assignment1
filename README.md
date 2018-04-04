@@ -12,17 +12,17 @@ March 3rd, 2018
 
 This is the first assignment of CIS 365. This assignment contains 4 Java programs:
 
-### Problem 1: FizzBuzz
+### Problem 1: FizzBuzz.java
 
 * Prints numbers 1 to 100
 * Except for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz".
 * For numbers which are multiples of both three and five print "FizzBuzz"
 
-### Problem 2: Primes
+### Problem 2: Primes.java
 
 * Prints the 1000th prime number
 
-### Problem 3: ReverseString()
+### Problem 3: Reverse.java
 
 * Write a function called ReverseString() that takes one argument You may assume that the
   argument is a string.
@@ -31,7 +31,7 @@ This is the first assignment of CIS 365. This assignment contains 4 Java program
   * What happens if null is passed in as an argument? How can we prevent problems caused by null
   or undefined?
 
-### Problem 4: IsUnique()
+### Problem 4: Unique.java
 
 * Write a function called IsUnique() that takes an array as an argument You may assume that the
 array has only strings.
@@ -39,4 +39,3 @@ array has only strings.
   * Return false is two or more elements are the same.
 * How can you make this work for an array of something other than strings? What needs to
 change?
-
