@@ -1,14 +1,14 @@
 # BrianSuarez_Assignment1
 
-##Name
+## Name
 
 Assignment1
 
-##Date Created
+## Date Created
 
 March 3rd, 2018
 
-##Description of Project
+## Description of Project
 
 This is the first assignment of CIS 365. This assignment contains 4 Java programs:
 
@@ -18,11 +18,11 @@ This is the first assignment of CIS 365. This assignment contains 4 Java program
 * Except for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz".
 * For numbers which are multiples of both three and five print "FizzBuzz"
 
-###Problem 2: Primes
+### Problem 2: Primes
 
 * Prints the 1000th prime number
 
-###Problem 3: ReverseString()
+### Problem 3: ReverseString()
 
 * Write a function called ReverseString() that takes one argument You may assume that the
   argument is a string.
@@ -31,7 +31,7 @@ This is the first assignment of CIS 365. This assignment contains 4 Java program
   * What happens if null is passed in as an argument? How can we prevent problems caused by null
   or undefined?
 
-###Problem 4: IsUnique()
+### Problem 4: IsUnique()
 
 * Write a function called IsUnique() that takes an array as an argument You may assume that the
 array has only strings.
