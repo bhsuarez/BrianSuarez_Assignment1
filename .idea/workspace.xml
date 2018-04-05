@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ec11416-c444-4df4-8c23-3d5df42a1837" name="Default" comment="" />
+    <list default="true" id="2ec11416-c444-4df4-8c23-3d5df42a1837" name="Default" comment="Completed Primes java class. Updated README for Primes.java description">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Primes/src/Primes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Primes/src/Primes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FizzBuzz/src/FizzBuzz.java">
+      <file leaf-file-name="Primes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Primes/src/Primes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state relative-caret-position="150">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="330">
+                <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -36,8 +52,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/FizzBuzz/src/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Primes/src/Primes.java" />
       </list>
     </option>
   </component>
@@ -48,7 +65,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="619" />
+    <option name="width" value="838" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -59,8 +76,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,11 +96,22 @@
               <item name="FizzBuzz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BrianSuarez_Assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrianSuarez_Assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="Primes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrianSuarez_Assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrianSuarez_Assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="Primes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -106,10 +134,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Primes">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
       <module name="FizzBuzz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Primes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Primes" />
+      <module name="Primes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -153,8 +186,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.FizzBuzz" />
+      <item itemvalue="Application.Primes" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Primes" />
         <item itemvalue="Application.FizzBuzz" />
       </list>
     </recent_temporary>
@@ -173,6 +211,7 @@
       <workItem from="1522875583495" duration="463000" />
       <workItem from="1522876062132" duration="1048000" />
       <workItem from="1522877357215" duration="4360000" />
+      <workItem from="1522889238610" duration="3970000" />
     </task>
     <task id="LOCAL-00001" summary="Added requirements of project to README file">
       <created>1522875201661</created>
@@ -227,27 +266,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6942000" />
+    <option name="totallyTimeSpent" value="10912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="688" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1065" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.3296593" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32923076" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007143" side_tool="true" weight="0.32988507" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28957915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2697436" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928573" weight="0.32988507" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3151751" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28250244" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -287,9 +326,17 @@
     <MESSAGE value="Added Unique.iml to Unique module" />
     <MESSAGE value="Added IntelliJ IDEA xml files and the project's .iml file" />
     <MESSAGE value="Completed FizzBuzz java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed FizzBuzz java class" />
+    <MESSAGE value="Completed Primes java class. Updated README for Primes.java description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Primes java class. Updated README for Primes.java description" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FizzBuzz/src/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -348,23 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="390">
-            <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Primes/src/Primes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Reverse/src/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -379,9 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-143">
@@ -389,10 +416,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/FizzBuzz/FizzBuzz.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FizzBuzz/src/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        <state relative-caret-position="75">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Primes/src/Primes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
