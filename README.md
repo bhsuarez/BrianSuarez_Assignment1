@@ -20,7 +20,7 @@ This is the first assignment of CIS 365. This assignment contains 4 Java program
 
 ### Problem 2: Primes.java
 
-* Prints the 1000th prime number
+* Prints the 'n'th prime number. Prompts user to enter n value.
 
 ### Problem 3: Reverse.java
 
