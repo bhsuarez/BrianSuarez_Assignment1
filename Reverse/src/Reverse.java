@@ -30,7 +30,7 @@ public class Reverse {
         }
 
         // Print reverse string
-        System.out.print("String in reverse: ");
+        System.out.print("Text in reverse: ");
         System.out.print(sb.toString());
     }
 }
