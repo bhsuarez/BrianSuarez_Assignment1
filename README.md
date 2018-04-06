@@ -24,12 +24,7 @@ This is the first assignment of CIS 365. This assignment contains 4 Java program
 
 ### Problem 3: Reverse.java
 
-* Write a function called ReverseString() that takes one argument You may assume that the
-  argument is a string.
-* Return the a string with all of the characters in reverse order.
-* For example: the string "reverse" will return "esrever".
-  * What happens if null is passed in as an argument? How can we prevent problems caused by null
-  or undefined?
+* Prompts for a string and prints the string in reverse order.
 
 ### Problem 4: Unique.java
 
