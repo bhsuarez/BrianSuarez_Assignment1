@@ -10,16 +10,28 @@ public class Unique {
         // String variables
         String currentString;
         String nextString;
+        boolean isUnique = false;
         int j = 0;
 
         // Loop to iterate array to print array elements
-        for(int i = 0; i < s.length; i++){
+        for(int i = 1; i < s.length; i++){
 
-            // Print the current array element
+            // Sets currentString String variable
             currentString = Arrays.asList(s).get(i);
-            System.out.println(i + " " + currentString);
+
+            // Sets nextString String variable
+            nextString = Arrays.asList(s).get(i-1);
+
+            System.out.println(i + " " + currentString+" "+nextString+" "+isUnique);
+
+            // If statement to determine if currentString equals nextString
+            if(currentString.equals(nextString)){
+                isUnique = true;
+            }
+
+
         }
-        return false;
+        return isUnique;
     }
 
     // Returns sample unique array
@@ -29,7 +41,7 @@ public class Unique {
 
     // Returns sample same array
     private static String[] sampleSameArray(){
-        return new String[] {"hello", "hello", "hello", "hello", "hello", "hello"};
+        return new String[] {"hello", "hell", "hello", "hello", "hello", "hello"};
     }
 
     /* Main method
