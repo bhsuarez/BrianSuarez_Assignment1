@@ -11,7 +11,6 @@ public class Unique {
         String currentString;
         String nextString;
         boolean isUnique = false;
-        int j = 0;
 
         // Loop to iterate array to print array elements
         for(int i = 1; i < s.length; i++){
