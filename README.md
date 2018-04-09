@@ -6,7 +6,7 @@ Assignment1
 
 ## Date Created
 
-March 3rd, 2018
+April 3rd, 2018
 
 ## Description of Project
 
@@ -24,13 +24,10 @@ This is the first assignment of CIS 365. This assignment contains 4 Java program
 
 ### Problem 3: Reverse.java
 
-* Prompts for a string and prints the string in reverse order.
+* Prompts user for a string and prints the string in reverse order.
 
 ### Problem 4: Unique.java
 
-* Write a function called IsUnique() that takes an array as an argument You may assume that the
-array has only strings.
+* Determines if String[] argument elements are unique
   * Return true is every element in the array is unique.
   * Return false is two or more elements are the same.
-* How can you make this work for an array of something other than strings? What needs to
-change?
