@@ -26,9 +26,6 @@ public class Unique {
                 // Set isUnique to false
                 isUnique = false;
             }
-
-            // Debugging
-            // System.out.println(i+" "+initialString+" "+currentString+" "+isUnique);
         }
 
             // Return isUnique boolean
