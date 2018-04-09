@@ -8,24 +8,24 @@ public class Unique {
     private static boolean isUnique(String[] s){
 
         // String variables
+        String initialString = s[0];
         String currentString;
-        String nextString;
-        boolean isUnique = false;
+        boolean isUnique = true;
 
         // Loop to iterate array to print array elements
-        for(int i = 1; i < s.length; i++){
+        for(int i = 0; i < s.length -1; i++){
 
             // Sets currentString String variable
-            currentString = Arrays.asList(s).get(i);
+            currentString = s[i];
 
             // Sets nextString String variable
-            nextString = Arrays.asList(s).get(i-1);
+            //nextString = Arrays.asList(s).get(i+1);
 
-            System.out.println(i + " " + currentString+" "+nextString+" "+isUnique);
+            System.out.println(i + " " + currentString+" "+initialString+" "+isUnique);
 
             // If statement to determine if currentString equals nextString
-            if(currentString.equals(nextString)){
-                isUnique = true;
+            if(!initialString.equals(currentString)){
+                isUnique = false;
             }
 
 
@@ -40,7 +40,7 @@ public class Unique {
 
     // Returns sample same array
     private static String[] sampleSameArray(){
-        return new String[] {"hello", "hell", "hello", "hello", "hello", "hello"};
+        return new String[] {"hello", "hello", "hello", "hello", "hello", "hello"};
     }
 
     /* Main method
