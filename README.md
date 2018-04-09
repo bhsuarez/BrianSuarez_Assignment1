@@ -29,5 +29,5 @@ This is the first assignment of CIS 365. This assignment contains 4 Java program
 ### Problem 4: Unique.java
 
 * Determines if String[] argument elements are unique
-  * Return true is every element in the array is unique.
-  * Return false is two or more elements are the same.
+  * Return true if every element in the array is unique.
+  * Return false if two or more elements are the same.
